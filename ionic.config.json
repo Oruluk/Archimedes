@@ -1,0 +1,8 @@
+{
+  "name": "avocado",
+  "app_id": "com.archimedes.iot",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}

@@ -1,0 +1,56 @@
+page-work-plan {
+
+    .taskImg {
+      height: 200px;
+      width: 100%;
+      object-fit: cover;
+    }
+    
+    .image{
+      height: 200px;
+      width: 100%;
+      object-fit: cover;
+      background: url('../assets/img/toy-car.jpg');
+      background-size: cover;
+    }
+
+    .heading {
+      font-size: 2rem;
+      color: #aaa;
+      padding-top: 16px;
+      font-weight: normal;
+      text-align: center;
+      margin: 0;
+    }
+
+    .sec {
+      padding-bottom: 8px!important;
+
+      &:first-of-type {
+        margin-top: 8px;
+      }
+
+      .head {
+        text-transform: uppercase;
+        font-size: 1.3rem;
+        font-weight: 700;
+      }
+    }
+
+      button {
+        color: #222;
+        flex-grow: 1;
+        flex-basis: 0;
+        font-weight: 300;
+    }
+
+    .paddedIcon {
+      margin-right: 8px;
+    }
+
+    .hide {
+      display: none;
+    }
+
+
+}

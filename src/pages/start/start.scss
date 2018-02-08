@@ -1,0 +1,35 @@
+page-start {
+  .root {
+  margin: 0 auto;
+
+  .archimedes {
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(255, 0, 102);
+  }
+
+  .bold {
+    font-weight: bold;
+    color: #888;
+  }
+
+  .heading {
+    font-size: 2rem;
+    color: #aaa;
+    font-weight: normal;
+    text-align: center;
+    margin: 0;
+  }
+
+  .headingBig {
+    font-size: 5.7rem;
+    font-weight: normal;
+    font-family: Merriweather;
+    text-align: center;
+    margin: 0;
+    padding-top: 130px;
+    padding-bottom: 50px;
+  }
+}
+
+}

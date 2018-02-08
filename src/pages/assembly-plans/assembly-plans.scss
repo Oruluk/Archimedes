@@ -1,0 +1,64 @@
+page-assembly-plans {
+
+  .headerWrap {
+    display: flex;
+    align-items:center;
+  }
+
+  .icon {
+    width: 75px;
+    height: 75px;
+    background-image: url('../assets/img/Archimedes.png');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .headingInstruction {
+    padding-top: 16px;
+    font-size: 2rem;
+    color: #aaa;
+    font-weight: normal;
+    text-align: center;
+    margin: 0;
+  }
+
+  .heading {
+    margin-left: 16px;
+
+    h1 {
+      font-size: 3rem;
+      font-weight: 300;
+      padding-left: 10px;
+      margin: 0;
+      padding: 0;
+    }
+    h2 {
+      font-size: 1.7rem;
+      font-weight: 300;
+      color: #aaa;
+      margin: 0;
+      padding: 0;
+    }
+  }
+
+  ion-card {
+    position: relative;
+    text-align: center;
+
+    img {
+      height: 100px;
+      object-fit: cover;
+    }
+  }
+
+  .card-title {
+    position: absolute;
+    top: 36%;
+    font-size: 2.0em;
+    width: 100%;
+    font-weight: bold;
+    color: #fff;
+  }
+
+}
